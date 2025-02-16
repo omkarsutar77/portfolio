@@ -1,0 +1,15 @@
+{
+  "Id": "Policy1739699368101",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1739699366265",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::omport/*",
+      "Principal": "*"
+    }
+  ]
+}
